@@ -1,0 +1,4 @@
+modbus-docker-demo/
+├── modbus-client/
+│   ├── client.py       # Your Modbus client script
+├── README.md           # Documentation for running the setup
