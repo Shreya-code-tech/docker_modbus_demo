@@ -1,0 +1,5 @@
+docker run -d --name modbus-server -p 502:502 -p 5020:5020 oitc/modbus-server
+docker stop modbus-server
+docker rm -f modbus-server
+python3 client.py
+
